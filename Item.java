@@ -1,3 +1,5 @@
+import java.util.List;
+
 class Item {
 	int id;
 	String name;
@@ -25,4 +27,12 @@ class Item {
 	double taxReturn () {
 		return tax * getPrice();
 	}
+}
+
+class Receipt{
+
+	List<Item> item1 = milk;
+	List<Item> item2 = sugar;
+
+	
 }
